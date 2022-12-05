@@ -1,4 +1,5 @@
 # Discord Joke Bot
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bearlike/Discord-GPT2-Joke-Bot/blob/main/519_GPT2_Joker.ipynb)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![python](https://img.shields.io/badge/python-3-blue)
 - Group project 3 for CNIT 519 - Natural Language Technologies.
@@ -17,6 +18,9 @@ DISCORD_GUILD=<DISCORD GUILD ID>
 ## Usage (Discord)
 1. Say `Tell me a joke about [something]` and it'll return a message from `bot_utils.say_joke()` 
 
+## Usgae (Notebook)
+1. Open it using any Jupyter notebook viewer. I use Jupyter Lab.
+2. GPT-2 Medium trained on `Small Jokes Dataset`. [All the versions of the trained models are available here.](https://drive.google.com/drive/folders/1cYMczEnNVBPM_Su_QeyZ6EJug5V5oB1g?usp=share_link)
 
 ## Problem Statement
 ```
