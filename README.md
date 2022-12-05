@@ -1,4 +1,6 @@
 # Discord Joke Bot
+![License](https://img.shields.io/badge/license-MIT-green)
+![python](https://img.shields.io/badge/python-3-blue)
 - Group project 3 for CNIT 519 - Natural Language Technologies.
 - Status : `Work in Progress`
 ## Dependencies
@@ -35,5 +37,9 @@ If you create a new account for the conversational agent, do not forget to disab
 ## To Do
 1. Implement sound similarity with anything other than edit distance. 
 2. Pass argument the (actual) joke generator.
-3. Figure out what to do about `5` and `7`.  
+3. Figure out what to do about `5` and `7`.
+
+## References
+1. Moudgil. (2017). Short Jokes [Dataset]. https://www.kaggle.com/datasets/abhinavmoudgil95/short-jokes
+2. Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language Models are Unsupervised Multitask Learners. 
  
