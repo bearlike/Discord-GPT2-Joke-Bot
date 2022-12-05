@@ -1,0 +1,6 @@
+torch
+transformers
+torchsummary
+numpy
+discord.py
+tqdm
