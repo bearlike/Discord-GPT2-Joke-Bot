@@ -40,7 +40,7 @@ If you create a new account for the conversational agent, do not forget to disab
 
 ## To Do
 1. Implement sound similarity with anything other than edit distance. 
-2. Pass argument the (actual) joke generator.
+2. Argument to the (actual) joke generator works, but the curent position is always one. We need to change it.
 3. Figure out what to do about `5` and `7`.
 
 ## References

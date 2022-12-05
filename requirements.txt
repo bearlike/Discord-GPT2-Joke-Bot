@@ -4,3 +4,4 @@ torchsummary
 numpy
 discord.py
 tqdm
+python-dotenv

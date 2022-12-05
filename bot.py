@@ -40,9 +40,9 @@ async def on_message(message):
         # author = message.author.name
         send_message = "Hello, Do you want me to tell a joke?\nJust say `Tell me a joke about [something]`."
 
-        if re.match(regex, message.content):
+        if str(message.content).startswith("Tell me a joke about"):
             keyword = (message.content).replace("Tell me a joke about ", "")
-            send_message = bot.say_joke(keyword)
+            send_message = utils.say_joke(keyword)
 
         await message.channel.send(send_message)
 
