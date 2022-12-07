@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 import os
+import requests
 import re
 import discord
-from bot_utils import Utils
 from dotenv import load_dotenv
 from time import sleep
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
-utils = Utils()
 intents = discord.Intents(
     messages=True,
     guilds=True,
@@ -42,7 +41,12 @@ async def on_message(message):
 
         if str(message.content).startswith("Tell me a joke about"):
             keyword = (message.content).replace("Tell me a joke about ", "")
-            send_message = utils.say_joke(keyword)
+            post_obj = {
+                "topic": keyword
+            }
+            x = requests.post(
+                "http://localhost:5000/api/generate/joke/", data=post_obj)
+            send_message = x.json()["message"]
 
         await message.channel.send(send_message)
 

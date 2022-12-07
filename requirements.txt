@@ -1,3 +1,4 @@
+wheel
 torch
 transformers
 torchsummary
@@ -5,3 +6,4 @@ numpy
 discord.py
 tqdm
 python-dotenv
+flask-restx>=0.5.1
