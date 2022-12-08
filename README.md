@@ -17,6 +17,7 @@ DISCORD_GUILD=<DISCORD GUILD ID>
 
 ## Usage (Discord)
 1. Say `Tell me a joke about [something]` and it'll return a message from `bot_utils.say_joke()` 
+   - The inference blocks offensive words from `jokes_data\bad_words_en.txt` into the sequence.
 
 ## Usgae (Notebook)
 1. Open it using any Jupyter notebook viewer. I use Jupyter Lab.

@@ -14,4 +14,4 @@ app.register_blueprint(api_v1)
 # skipcq: PYL-W0125
 if True:
     # Secret Engines
-    from Api.resources.generate.topic_resource import Engine_KV  # noqa: F401
+    from Api.resources.generate.topic_resource import Joker, Finder  # noqa: F401
