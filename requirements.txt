@@ -3,7 +3,7 @@ torch
 transformers
 torchsummary
 numpy
-discord.py
 tqdm
+discord.py
 python-dotenv
 flask-restx>=0.5.1
